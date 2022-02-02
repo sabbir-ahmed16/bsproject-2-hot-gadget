@@ -1,0 +1,31 @@
+body {
+  background-image: url(images/bg-2.png);
+  background-repeat: no-repeat;
+  background-position-y: 45vh;
+}
+.container {
+  margin-bottom: 10px;
+}
+.carousel-bg {
+  background-image: url(images/bg-1.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.carousel-item {
+  padding: 20px 20px;
+}
+
+.carousel-indicators .active {
+  background-color: orange;
+}
+.buy-now {
+  background: black;
+  color: #fff;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.buy-now button::after {
+  content: " ->";
+}
