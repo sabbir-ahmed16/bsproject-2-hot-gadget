@@ -1,7 +1,7 @@
 body {
   background-image: url(images/bg-2.png);
   background-repeat: no-repeat;
-  background-position-y: 45vh;
+  background-position-y: 75vh;
 }
 .container {
   margin-bottom: 10px;
@@ -26,6 +26,51 @@ body {
   border-radius: 5px;
 }
 
-.buy-now button::after {
-  content: " ->";
+h6 {
+  color: orange;
+}
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+.card img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+#product {
+  margin: 100px auto;
+}
+.product-category {
+  margin: 50px auto;
+}
+.section-header {
+  margin: 30px auto;
+}
+h2::after {
+  content: "";
+  width: 100px;
+  display: block;
+  margin: 10px auto;
+  height: 5px;
+  background: orange;
+  border-radius: 5px;
+}
+.category {
+  width: 240px;
+  height: 230px;
+  padding: 45px;
+  margin: 10px 0 20px 20px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.img1 {
+  border-radius: 5px 10px 5px 40px;
+}
+.img2 {
+  border-radius: 10px 5px 40px 5px;
+}
+.category-order {
+  width: 100%;
 }
