@@ -74,3 +74,14 @@ h2::after {
 .category-order {
   width: 100%;
 }
+footer {
+  padding: 50px 20px;
+  background: #fff;
+  box-shadow: 5px 5px 50px lightgray;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+footer p {
+  margin: 0;
+  text-align: center;
+}
